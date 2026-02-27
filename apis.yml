@@ -1,0 +1,116 @@
+name: Qlik Mashups API
+description: APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups
+image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+tags:
+- analytics
+- business intelligence
+- visualization
+- mashup
+- embedded analytics
+created: '2024-01-01'
+modified: '2024-01-01'
+url: https://help.qlik.com/en-US/sense-developer/
+apis:
+- name: Qlik Sense Capability APIs
+  description: JavaScript APIs for building mashups and custom visualizations in Qlik Sense
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+  humanURL: https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm
+  baseURL: https://your-qlik-server.com
+  tags:
+  - javascript
+  - visualization
+  - capabilities
+  - embeddings
+  properties:
+  - type: Documentation
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm
+  - type: Tutorial
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm
+  - type: Examples
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-examples.htm
+- name: Qlik Engine API
+  description: JSON-RPC API for interacting with the Qlik Associative Engine
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+  humanURL: https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm
+  baseURL: wss://your-qlik-server.com/app/
+  tags:
+  - engine
+  - json-rpc
+  - websocket
+  - data-access
+  properties:
+  - type: Documentation
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm
+  - type: API Reference
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/GettingStarted/connecting-to-engine-api.htm
+  - type: Schema
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/GenericObject/genericobject-class.htm
+- name: Qlik Repository API
+  description: REST API for managing Qlik Sense repository content and configuration
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+  humanURL: https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm
+  baseURL: https://your-qlik-server.com:4242/qrs
+  tags:
+  - rest
+  - repository
+  - administration
+  - content-management
+  properties:
+  - type: Documentation
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm
+  - type: OpenAPI
+    url: https://your-qlik-server.com:4242/qrs/openapi/openapi.json
+  - type: Authentication
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Authentication.htm
+- name: Qlik Single Configurator
+  description: API for configuring single integrations and mashup authentication
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+  humanURL: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm
+  baseURL: https://your-qlik-server.com/resources
+  tags:
+  - configuration
+  - authentication
+  - single-integration
+  properties:
+  - type: Documentation
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm
+  - type: Code Sample
+    url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-basic-example.htm
+- name: Qlik Nebula.js
+  description: Modern framework for building visualization mashups with Qlik's next-generation APIs
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png
+  humanURL: https://qlik.dev/libraries-and-tools/nebulajs
+  baseURL: https://unpkg.com/@nebula.js/stardust
+  tags:
+  - visualization
+  - modern
+  - javascript
+  - framework
+  - nebula
+  properties:
+  - type: Documentation
+    url: https://qlik.dev/libraries-and-tools/nebulajs
+  - type: GitHub
+    url: https://github.com/qlik-oss/nebula.js
+  - type: NPM Package
+    url: https://www.npmjs.com/package/@nebula.js/stardust
+  - type: Examples
+    url: https://qlik.dev/libraries-and-tools/nebulajs/examples
+include:
+- name: Qlik Developer Portal
+  url: https://qlik.dev
+maintainers:
+- name: Qlik
+  email: developer@qlik.com
+  url: https://qlik.dev
+common:
+- type: Getting Started
+  url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm
+- type: Community
+  url: https://community.qlik.com/t5/Developers/ct-p/qlik-developer
+- type: Support
+  url: https://support.qlik.com
+- type: Blog
+  url: https://community.qlik.com/t5/Qlik-Design-Blog/bg-p/qlik-design-blog
+- type: Downloads
+  url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-resources.htm
