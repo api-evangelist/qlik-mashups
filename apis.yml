@@ -1,5 +1,5 @@
 aid: qlik-mashups
-name: Qlik Mashups API
+name: Qlik Mashups
 description: APIs and resources for building custom visualizations and analytics applications
   using Qlik Sense mashups.
 type: Index
