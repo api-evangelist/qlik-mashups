@@ -1,15 +1,14 @@
 aid: qlik-mashups
 name: Qlik Mashups
-description: APIs and resources for building custom visualizations and analytics applications
-  using Qlik Sense mashups.
+description: APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Analytics
   - Business Intelligence
-  - Visualization
-  - Mashup
   - Embedded Analytics
+  - Mashup
+  - Visualization
 url: >-
   https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/apis.yml
 created: '2024-01-01'
