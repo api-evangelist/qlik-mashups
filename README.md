@@ -1,109 +1,95 @@
-# Qlik Mashups API (qlik-mashups)
-APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups
+# Qlik Mashups (qlik-mashups)
+APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups.
 
-**URL:** [Visit APIs.json URL](https://help.qlik.com/en-US/sense-developer/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/apis.yml)
 
 ## Tags:
 
- - analytics, business intelligence, visualization, mashup, embedded analytics
+ - Analytics, Business Intelligence, Embedded Analytics, Mashup, Visualization
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Qlik Sense Capability APIs
-JavaScript APIs for building mashups and custom visualizations in Qlik Sense
+JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
 
 **Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm)
 
-
 #### Tags:
 
- - javascript, visualization, capabilities, embeddings
+ - JavaScript, Visualization
 
 #### Properties
 
 - [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm)
 - [Tutorial](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm)
-- [Examples](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-examples.htm)
 
 ### Qlik Engine API
-JSON-RPC API for interacting with the Qlik Associative Engine
+JSON-RPC API for interacting with the Qlik Associative Engine.
 
-**Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm)
-
+**Human URL:** [https://qlik.dev/apis/json-rpc/qix](https://qlik.dev/apis/json-rpc/qix)
 
 #### Tags:
 
- - engine, json-rpc, websocket, data-access
+ - Engine, WebSocket
 
 #### Properties
 
-- [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm)
-- [API Reference](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/GettingStarted/connecting-to-engine-api.htm)
-- [Schema](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/GenericObject/genericobject-class.htm)
+- [Documentation](https://qlik.dev/apis/json-rpc/qix)
 
 ### Qlik Repository API
-REST API for managing Qlik Sense repository content and configuration
+REST API for managing Qlik Sense repository content and configuration.
 
 **Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm)
 
-
 #### Tags:
 
- - rest, repository, administration, content-management
+ - Repository, Administration
 
 #### Properties
 
 - [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm)
-- [OpenAPI](https://your-qlik-server.com:4242/qrs/openapi/openapi.json)
-- [Authentication](https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Authentication.htm)
 
 ### Qlik Single Configurator
-API for configuring single integrations and mashup authentication
+API for configuring single integrations and mashup authentication.
 
 **Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm)
 
-
 #### Tags:
 
- - configuration, authentication, single-integration
+ - Configuration, Mashup
 
 #### Properties
 
 - [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm)
-- [Code Sample](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-basic-example.htm)
 
 ### Qlik Nebula.js
-Modern framework for building visualization mashups with Qlik's next-generation APIs
+Modern framework for building visualization mashups with Qlik's next-generation APIs.
 
 **Human URL:** [https://qlik.dev/libraries-and-tools/nebulajs](https://qlik.dev/libraries-and-tools/nebulajs)
 
-
 #### Tags:
 
- - visualization, modern, javascript, framework, nebula
+ - Visualization, JavaScript
 
 #### Properties
 
 - [Documentation](https://qlik.dev/libraries-and-tools/nebulajs)
 - [GitHub](https://github.com/qlik-oss/nebula.js)
-- [NPM Package](https://www.npmjs.com/package/@nebula.js/stardust)
-- [Examples](https://qlik.dev/libraries-and-tools/nebulajs/examples)
 
 ## Common Properties
 
 - [Getting Started](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm)
 - [Community](https://community.qlik.com/t5/Developers/ct-p/qlik-developer)
 - [Support](https://support.qlik.com)
-- [Blog](https://community.qlik.com/t5/Qlik-Design-Blog/bg-p/qlik-design-blog)
-- [Downloads](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-resources.htm)
+- [Website](https://www.qlik.com)
 
 ## Maintainers
 
-**FN:** Qlik
+**FN:** Kin Lane
 
-**Email:** developer@qlik.com
+**Email:** kin@apievangelist.com
