@@ -78,6 +78,10 @@ apis:
       - type: GitHub
         url: https://github.com/qlik-oss/nebula.js
 common:
+  - type: TrustCenter
+    url: security/qlik-mashups-trust-center.yml
+  - type: DomainSecurity
+    url: security/qlik-mashups-domain-security.yml
   - type: GettingStarted
     url: https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm
   - type: Community
