@@ -1,4 +1,4 @@
-# Qlik Mashups (qlik-mashups)
+# Qlik Mashups
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,95 +66,106 @@
 
 APIs and resources for building custom visualizations and analytics applications using Qlik Sense mashups.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/apis.yml)
+**Areas:** Analytics · Business Intelligence · Embedded Analytics · Mashup · Visualization
 
-## Tags:
+## Qlik Mashups on APIs.io
 
- - Analytics, Business Intelligence, Embedded Analytics, Mashup, Visualization
+Everything profiled for Qlik Mashups is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/qlik-mashups/](https://apis.io/providers/qlik-mashups/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (5)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [Qlik Sense Capability APIs](https://apis.io/apis/qlik-mashups/qlik-sense-capability-apis/) — JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
+- [Qlik Engine API](https://apis.io/apis/qlik-mashups/qlik-engine-api/) — JSON-RPC API for interacting with the Qlik Associative Engine.
+- [Qlik Repository API](https://apis.io/apis/qlik-mashups/qlik-repository-api/) — REST API for managing Qlik Sense repository content and configuration.
+- [Qlik Single Configurator](https://apis.io/apis/qlik-mashups/qlik-single-configurator/) — API for configuring single integrations and mashup authentication.
+- [Qlik Nebula.js](https://apis.io/apis/qlik-mashups/qlik-nebula-js/) — Modern framework for building visualization mashups with Qlik's next-generation APIs.
 
-## APIs
+### Published properties
 
-### Qlik Sense Capability APIs
-JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm)
+#### Security (2)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - JavaScript, Visualization
+- [Qlik Mashups Domain Security](https://apis.io/security/qlik-mashups/qlik-mashups-domain-security/)
+- [Qlik Mashups Trust Center](https://apis.io/security/qlik-mashups/qlik-mashups-trust-center/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/capability-apis-reference.htm)
-- [Tutorial](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm)
+Published plans, tiers and prices.
 
-### Qlik Engine API
-JSON-RPC API for interacting with the Qlik Associative Engine.
+- [Qlik Mashups Plans Pricing](https://apis.io/plans/qlik-mashups/qlik-mashups-plans-pricing/)
 
-**Human URL:** [https://qlik.dev/apis/json-rpc/qix](https://qlik.dev/apis/json-rpc/qix)
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - Engine, WebSocket
+- [Qlik Mashups Rate Limits](https://apis.io/rate-limits/qlik-mashups/qlik-mashups-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://qlik.dev/apis/json-rpc/qix)
+What the API costs to run, by operation.
 
-### Qlik Repository API
-REST API for managing Qlik Sense repository content and configuration.
+- [Qlik Mashups Finops](https://apis.io/finops/qlik-mashups/qlik-mashups-finops/)
 
-**Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm)
+## Where to find this API
 
-#### Tags:
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
- - Repository, Administration
-
-#### Properties
-
-- [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/RepositoryServiceAPI/Content/Sense_RepositoryServiceAPI/RepositoryServiceAPI-Introduction.htm)
-
-### Qlik Single Configurator
-API for configuring single integrations and mashup authentication.
-
-**Human URL:** [https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm)
-
-#### Tags:
-
- - Configuration, Mashup
-
-#### Properties
-
-- [Documentation](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-single-configurator.htm)
-
-### Qlik Nebula.js
-Modern framework for building visualization mashups with Qlik's next-generation APIs.
-
-**Human URL:** [https://qlik.dev/libraries-and-tools/nebulajs](https://qlik.dev/libraries-and-tools/nebulajs)
-
-#### Tags:
-
- - Visualization, JavaScript
-
-#### Properties
-
-- [Documentation](https://qlik.dev/libraries-and-tools/nebulajs)
-- [GitHub](https://github.com/qlik-oss/nebula.js)
-
-## Common Properties
-
-- [Getting Started](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm)
-- [Community](https://community.qlik.com/t5/Developers/ct-p/qlik-developer)
-- [Support](https://support.qlik.com)
 - [Website](https://www.qlik.com)
+- [Getting started](https://help.qlik.com/en-US/sense-developer/Subsystems/Mashups/Content/Sense_Mashups/mashups-getting-started.htm)
+- [Support](https://support.qlik.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 14.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/qlik-mashups/](https://apis.io/providers/qlik-mashups/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Qlik Mashups: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/qlik-mashups/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
